@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "files": ["src/*"],
+  "types": "dist/types",
+  "files": ["dist/*"],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "author": "Maliken",
   "license": "ISC",
