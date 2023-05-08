@@ -1,0 +1,15 @@
+{
+  "name": "di-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Maliken",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
