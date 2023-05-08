@@ -2,9 +2,9 @@
   "name": "di-container",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "types": "dist/types",
-  "files": ["dist/*"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
   "scripts": {
     "build": "tsc",
     "postinstall": "npm run build"
