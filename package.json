@@ -1,5 +1,5 @@
 {
-  "name": "di-container",
+  "name": "mn-di-container",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -10,8 +10,14 @@
     "postinstall": "npm run build"
   },
   "author": "Maliken",
+  "private": false,
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.0.4"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xMalikeNx/di-container"
   }
 }
